@@ -35,3 +35,7 @@ jobs:
         repository: syannickperrenet/autobuild-test
         tags: latest
         path: app/
+        
+    # Runs a single command using the runners shell
+    - name: Run another one-line script
+      run: echo Woop! This is Yannick
